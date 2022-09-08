@@ -11,3 +11,4 @@
 7. Template function explicit instantiation in .cpp: `template vector<string> const Reader::readFile<string>();`
 8. Template class explicit instantiation in .cpp: `template class Reader<int>;`
 9. Interfaces are `Abstract Classes` with `Pure Virtual Functions`: `virtual void getValue() = 0`
+10. Rule of 3: If a type ever needs to have a user-defined copy constructor C(C&), copy assignment operator C &operator=(C const& otherC), or destructor ~C(), then it must have all three.
